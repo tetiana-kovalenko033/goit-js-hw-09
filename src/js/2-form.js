@@ -5,7 +5,7 @@ const input = form.querySelector("input");
 const textArea = form.querySelector("textArea");
 const button = form.querySelector("button");
 
-form.addEventListener("input", => {
-    this.email = event.target.value.email;
-    this.mesage = event.target.value.mesage;
-})
+// form.addEventListener("input", => {
+//     email = event.target.value.email,
+//     mesage = event.target.value.mesage
+// })
