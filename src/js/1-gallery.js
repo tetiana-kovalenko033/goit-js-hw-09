@@ -1,3 +1,6 @@
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+
 const images = [
  {
 preview:
@@ -82,13 +85,11 @@ function createList(images) {
 
 list.insertAdjacentHTML("afterbegin", createList(images));
 
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionPosition: 'bottom',
-  captionDelay: 250,
-  className: 'simple-lightbox',
+    captionDelay: 250,
+  
   });
 
